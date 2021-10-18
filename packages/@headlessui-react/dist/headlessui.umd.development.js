@@ -1238,6 +1238,7 @@
       }
     };
     var passthroughProps = rest;
+    console.error('Dialog is rendering!');
     return React__default.createElement(StackProvider, {
       type: "Dialog",
       element: internalDialogRef,
