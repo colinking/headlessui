@@ -295,6 +295,8 @@ let DialogRoot = forwardRefWithAs(function Dialog<
   }
   let passthroughProps = rest
 
+  console.error('Dialog is rendering!')
+
   return (
     <StackProvider
       type="Dialog"
